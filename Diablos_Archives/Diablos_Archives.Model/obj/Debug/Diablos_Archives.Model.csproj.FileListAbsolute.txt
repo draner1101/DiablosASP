@@ -1,0 +1,15 @@
+D:\Document\Visual Studio 2017\Projects\Diablos_Archives\Diablos_Archives.Model\obj\Debug\Diablos_Archives.Model.csprojResolveAssemblyReference.cache
+D:\Document\Visual Studio 2017\Projects\Diablos_Archives\Diablos_Archives.Model\bin\Debug\Diablos_Archives.Model.dll.config
+D:\Document\Visual Studio 2017\Projects\Diablos_Archives\Diablos_Archives.Model\bin\Debug\Diablos_Archives.Model.dll
+D:\Document\Visual Studio 2017\Projects\Diablos_Archives\Diablos_Archives.Model\bin\Debug\Diablos_Archives.Model.pdb
+D:\Document\Visual Studio 2017\Projects\Diablos_Archives\Diablos_Archives.Model\bin\Debug\Core.dll
+D:\Document\Visual Studio 2017\Projects\Diablos_Archives\Diablos_Archives.Model\bin\Debug\EntityFramework.dll
+D:\Document\Visual Studio 2017\Projects\Diablos_Archives\Diablos_Archives.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Document\Visual Studio 2017\Projects\Diablos_Archives\Diablos_Archives.Model\bin\Debug\FluentValidation.dll
+D:\Document\Visual Studio 2017\Projects\Diablos_Archives\Diablos_Archives.Model\bin\Debug\Core.pdb
+D:\Document\Visual Studio 2017\Projects\Diablos_Archives\Diablos_Archives.Model\bin\Debug\Core.dll.config
+D:\Document\Visual Studio 2017\Projects\Diablos_Archives\Diablos_Archives.Model\bin\Debug\EntityFramework.xml
+D:\Document\Visual Studio 2017\Projects\Diablos_Archives\Diablos_Archives.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Document\Visual Studio 2017\Projects\Diablos_Archives\Diablos_Archives.Model\bin\Debug\FluentValidation.xml
+D:\Document\Visual Studio 2017\Projects\Diablos_Archives\Diablos_Archives.Model\obj\Debug\Diablos_Archives.Model.dll
+D:\Document\Visual Studio 2017\Projects\Diablos_Archives\Diablos_Archives.Model\obj\Debug\Diablos_Archives.Model.pdb
