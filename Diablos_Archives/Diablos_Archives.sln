@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diablos_Archives.Data", "Di
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diablos_Archives.Model", "Diablos_Archives.Model\Diablos_Archives.Model.csproj", "{324155E8-5440-41D3-BBDC-0D6E55ACEB47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diablos_Archives.Core", "..\DSL\Delimiter-Directed Translation\Core\Diablos_Archives.Core.csproj", "{929E365D-DF09-4678-A610-40A9C9648D53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diablos_Archives.Core", "Diablos_Archives.Core\Diablos_Archives.Core.csproj", "{929E365D-DF09-4678-A610-40A9C9648D53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

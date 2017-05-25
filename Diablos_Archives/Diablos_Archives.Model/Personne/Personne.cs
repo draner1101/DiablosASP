@@ -18,6 +18,7 @@ namespace Diablos_Archives.Model
             NoEmbauches = new HashSet<NoEmbauche>();
             Personnes = new HashSet<Personne>();
             Telephones = new HashSet<Telephone>();
+            Statut = "Actif";
         }
 
         public int Id { get; set; }

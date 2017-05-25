@@ -77,8 +77,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\DSL\Delimiter-Directed Translation\Core\Diablos_Archives.Core.csproj">
-      <Project>{929E365D-DF09-4678-A610-40A9C9648D53}</Project>
+    <ProjectReference Include="..\Diablos_Archives.Core\Diablos_Archives.Core.csproj">
+      <Project>{929e365d-df09-4678-a610-40a9c9648d53}</Project>
       <Name>Diablos_Archives.Core</Name>
     </ProjectReference>
   </ItemGroup>

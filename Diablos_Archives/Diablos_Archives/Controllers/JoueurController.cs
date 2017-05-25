@@ -1,4 +1,6 @@
-﻿using Core;
+﻿using AutoMapper;
+using Core;
+using Diablos_Archives.Data;
 using Diablos_Archives.Model;
 using System;
 using System.Collections.Generic;
@@ -10,10 +12,30 @@ namespace Diablos_Archives.Controllers
 {
     public class JoueurController : Controller
     {
+        DiablosDB context;
+        EFRepository<DiablosDB> repository;
+        JoueurServices service;
+
+        public JoueurController()
+        {
+            context = new DiablosDB();
+            repository = new EFRepository<DiablosDB>(context);
+            service = new JoueurServices(repository);
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+                if (context != null)
+                    context.Dispose();
+            base.Dispose(disposing);
+
+        }
+
         // GET: Joueur
         public ActionResult Index()
         {
-            return View();
+            return View(service.ListeJoueur());
         }
 
         public ActionResult Ajouter()
@@ -21,16 +43,38 @@ namespace Diablos_Archives.Controllers
             return View();
         }
 
+        [HttpPost]
+        public ActionResult Ajouter(JoueurViewModel viewModel)
+        {
+            if (!ModelState.IsValid)
+                return View();
+
+            Joueur joueur = Mapper.Map<Joueur>(viewModel);
+            service.AddJoueur(joueur);
+            repository.Save();
+
+            return RedirectToAction("Index");
+        }
+
+        public ActionResult Modifier(int id)
+        {
+            Joueur model = service.GetJoueurById(id);
+            return View(model);
+        }
 
         [HttpPost]
-        public ActionResult Ajouter(JoueurViewModel joueur)
+        [ValidateAntiForgeryToken]
+        public ActionResult Modifier(JoueurViewModel viewModel)
         {
-            using (var context = new DiablosDB())
-            {
-                EFRepository<DiablosDB> repo = new EFRepository<DiablosDB>(context);
-                
-            }
-            return View(joueur);
+            if (!ModelState.IsValid)
+                return View();
+
+
+            Joueur joueur = Mapper.Map<Joueur>(viewModel);
+            service.UpdateJoueur(joueur);
+            repository.Save();
+
+            return RedirectToAction("Index");
         }
     }
 }

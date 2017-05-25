@@ -15,8 +15,10 @@ namespace Diablos_Archives.Model
         {
             Joueurs = new HashSet<Joueur>();
             JoueurEquipes = new HashSet<JoueurEquipe>();
+            Statut = "Actif";
         }
 
+        [Key]
         public int Id { get; set; }
 
         public int IdPersonne { get; set; }

@@ -50,6 +50,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Profiles\JoueurProfile.cs" />
+    <Compile Include="Services\JoueurServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\PersonneServices.cs" />
   </ItemGroup>
@@ -58,8 +60,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\DSL\Delimiter-Directed Translation\Core\Diablos_Archives.Core.csproj">
-      <Project>{929E365D-DF09-4678-A610-40A9C9648D53}</Project>
+    <ProjectReference Include="..\Diablos_Archives.Core\Diablos_Archives.Core.csproj">
+      <Project>{929e365d-df09-4678-a610-40a9c9648d53}</Project>
       <Name>Diablos_Archives.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\Diablos_Archives.Model\Diablos_Archives.Model.csproj">
@@ -67,5 +69,6 @@
       <Name>Diablos_Archives.Model</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

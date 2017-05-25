@@ -2,66 +2,52 @@
 @{
     ViewBag.Title = "Ajouter";
 }
-@Html.AntiForgeryToken()
+
+<h2>Ajouter</h2>
 <div class="row">
     <div class="col-sm-12">
         @using (Html.BeginForm())
         {
+            @Html.AntiForgeryToken()
             <div class="form-group">
                 @Html.LabelFor(m => m.Personne.Nom)
-                <div class="col-sm-10">
-                    @Html.TextBoxFor(m => m.Personne.Nom, new { @class = "form-control", placeholder = "Nom" })
-                    @Html.ValidationMessageFor(m => m.Personne.Nom)
-                </div>
+                @Html.TextBoxFor(m => m.Personne.Nom, new { @class = "form-control", placeholder = "Nom" })
+                @Html.ValidationMessageFor(m => m.Personne.Nom)
             </div>
             <div class="form-group">
                 @Html.LabelFor(m => m.Personne.Prenom)
-                <div class="col-sm-10">
-                    @Html.TextBoxFor(m => m.Personne.Prenom, new { @class = "form-control", placeholder = "Prenom" })
-                    @Html.ValidationMessageFor(m => m.Personne.Prenom)
-                </div>
+                @Html.TextBoxFor(m => m.Personne.Prenom, new { @class = "form-control", placeholder = "Prenom" })
+                @Html.ValidationMessageFor(m => m.Personne.Prenom)
             </div>
             <div class="form-group">
                 @Html.LabelFor(m => m.Personne.Sexe)
-                <div class="col-sm-10">
-                    @Html.TextBoxFor(m => m.Personne.Sexe, new { @class = "form-control", placeholder = "Sexe" })
-                    @Html.ValidationMessageFor(m => m.Personne.Sexe)
-                </div>
+                @Html.TextBoxFor(m => m.Personne.Sexe, new { @class = "form-control", placeholder = "Sexe" })
+                @Html.ValidationMessageFor(m => m.Personne.Sexe)
             </div>
             <div class="form-group">
                 @Html.LabelFor(m => m.Personne.DateNaissance)
-                <div class="col-sm-10">
-                    @Html.DisplayFor(m => m.Personne.DateNaissance, new { @class = "form-control", placeholder = "Date de naissance" })
-                    @Html.ValidationMessageFor(m => m.Personne.DateNaissance)
-                </div>
+                @Html.DisplayFor(m => m.Personne.DateNaissance, new { @class = "form-control", placeholder = "Date de naissance" })
+                @Html.ValidationMessageFor(m => m.Personne.DateNaissance)
             </div>
             <div class="form-group">
                 @Html.LabelFor(m => m.Personne.Courriel)
-                <div class="col-sm-10">
-                    @Html.TextBoxFor(m => m.Personne.Courriel, new { @class = "form-control", placeholder = "Courriel" })
-                    @Html.ValidationMessageFor(m => m.Personne.Courriel)
-                </div>
+                @Html.TextBoxFor(m => m.Personne.Courriel, new { @class = "form-control", placeholder = "Courriel" })
+                @Html.ValidationMessageFor(m => m.Personne.Courriel)
             </div>
             <div class="form-group">
                 @Html.LabelFor(m => m.Personne.Rue)
-                <div class="col-sm-10">
-                    @Html.TextBoxFor(m => m.Personne.Rue, new { @class = "form-control", placeholder = "Rue" })
-                    @Html.ValidationMessageFor(m => m.Personne.Rue)
-                </div>
+                @Html.TextBoxFor(m => m.Personne.Rue, new { @class = "form-control", placeholder = "Rue" })
+                @Html.ValidationMessageFor(m => m.Personne.Rue)
             </div>
             <div class="form-group">
                 @Html.LabelFor(m => m.Personne.Ville)
-                <div class="col-sm-10">
-                    @Html.TextBoxFor(m => m.Personne.Ville, new { @class = "form-control", placeholder = "Ville" })
-                    @Html.ValidationMessageFor(m => m.Personne.Ville)
-                </div>
+                @Html.TextBoxFor(m => m.Personne.Ville, new { @class = "form-control", placeholder = "Ville" })
+                @Html.ValidationMessageFor(m => m.Personne.Ville)
             </div>
             <div class="form-group">
                 @Html.LabelFor(m => m.EcoleSecondaire)
-                <div class="col-sm-10">
-                    @Html.TextBoxFor(m => m.EcoleSecondaire, new { @class = "form-control", placeholder = "École secondaire" })
-                    @Html.ValidationMessageFor(m => m.EcoleSecondaire)
-                </div>
+                @Html.TextBoxFor(m => m.EcoleSecondaire, new { @class = "form-control", placeholder = "École secondaire" })
+                @Html.ValidationMessageFor(m => m.EcoleSecondaire)
             </div>
             <input type="submit" class="btn btn-default" value="Ajouter" />
         }
