@@ -169,5 +169,7 @@ namespace Diablos_Archives.Model
                 .WithRequired(e => e.Type)
                 .HasForeignKey(e => e.IdType);
         }
+
+        public System.Data.Entity.DbSet<Diablos_Archives.Model.JoueurViewModel> JoueurViewModels { get; set; }
     }
 }

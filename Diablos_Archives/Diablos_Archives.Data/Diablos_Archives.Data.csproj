@@ -54,6 +54,7 @@
     <Compile Include="Services\JoueurServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\PersonneServices.cs" />
+    <Compile Include="Services\ProvinceServices.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

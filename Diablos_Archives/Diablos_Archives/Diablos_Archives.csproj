@@ -197,9 +197,12 @@
     <Content Include="Views\Joueur\Ajouter.cshtml" />
     <Content Include="Views\Joueur\Index.cshtml" />
     <Content Include="Views\Joueur\Modifier.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\Personne.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\JoueurViewModel.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Shared\DisplayTemplates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

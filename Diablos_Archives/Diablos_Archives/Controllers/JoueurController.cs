@@ -58,8 +58,9 @@ namespace Diablos_Archives.Controllers
 
         public ActionResult Modifier(int id)
         {
-            Joueur model = service.GetJoueurById(id);
-            return View(model);
+            ViewBag.Provinces = new SelectList(new ProvinceServices(repository).ListeProvince(), "Id", "Nom");
+            JoueurViewModel joueur = Mapper.Map<JoueurViewModel>(service.GetJoueurById(id));
+            return View(joueur);
         }
 
         [HttpPost]
@@ -68,7 +69,6 @@ namespace Diablos_Archives.Controllers
         {
             if (!ModelState.IsValid)
                 return View();
-
 
             Joueur joueur = Mapper.Map<Joueur>(viewModel);
             service.UpdateJoueur(joueur);

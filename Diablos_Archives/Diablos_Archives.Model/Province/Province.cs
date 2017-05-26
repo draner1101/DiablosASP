@@ -1,5 +1,6 @@
 namespace Diablos_Archives.Model
 {
+    using Core;
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
@@ -7,7 +8,7 @@ namespace Diablos_Archives.Model
     using System.Data.Entity.Spatial;
 
     [Table("Province")]
-    public partial class Province
+    public partial class Province : IEntity
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Province()
