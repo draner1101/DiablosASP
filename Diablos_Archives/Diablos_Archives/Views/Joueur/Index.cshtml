@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Diablos_Archives.Model.Joueur>
+@{
+    ViewBag.Title = "Index";
+}
+
+<table class="table">
+    <tr>
+        <th>@Html.LabelFor(m => m.First().Personne.Nom)</th>
+        <th>@Html.LabelFor(m => m.First().Personne.Prenom)</th>
+    </tr>
+    @foreach(var joueur in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(m => joueur.Personne.Nom)</td>
+            <td>@Html.DisplayFor(m => joueur.Personne.Prenom)</td>
+            <td>@Html.ActionLink("Modifier", "Modifier", new { id = joueur.Id })</td>
+        </tr>
+    }
+</table>
+

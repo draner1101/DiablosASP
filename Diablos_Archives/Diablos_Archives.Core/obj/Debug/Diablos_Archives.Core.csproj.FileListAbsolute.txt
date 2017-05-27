@@ -1,0 +1,20 @@
+D:\Document\Visual Studio 2017\Projects\DSL\Delimiter-Directed Translation\Core\bin\Debug\Core.dll.config
+D:\Document\Visual Studio 2017\Projects\DSL\Delimiter-Directed Translation\Core\bin\Debug\Core.dll
+D:\Document\Visual Studio 2017\Projects\DSL\Delimiter-Directed Translation\Core\bin\Debug\Core.pdb
+D:\Document\Visual Studio 2017\Projects\DSL\Delimiter-Directed Translation\Core\bin\Debug\EntityFramework.dll
+D:\Document\Visual Studio 2017\Projects\DSL\Delimiter-Directed Translation\Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\Document\Visual Studio 2017\Projects\DSL\Delimiter-Directed Translation\Core\bin\Debug\EntityFramework.xml
+D:\Document\Visual Studio 2017\Projects\DSL\Delimiter-Directed Translation\Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\Document\Visual Studio 2017\Projects\DSL\Delimiter-Directed Translation\Core\obj\Debug\Diablos_Archives.Core.csprojResolveAssemblyReference.cache
+D:\Document\Visual Studio 2017\Projects\DSL\Delimiter-Directed Translation\Core\obj\Debug\Core.dll
+D:\Document\Visual Studio 2017\Projects\DSL\Delimiter-Directed Translation\Core\obj\Debug\Core.pdb
+D:\Document\Visual Studio 2017\Projects\DiablosASP\Diablos_Archives\Diablos_Archives.Core\bin\Debug\Core.dll.config
+D:\Document\Visual Studio 2017\Projects\DiablosASP\Diablos_Archives\Diablos_Archives.Core\bin\Debug\Core.dll
+D:\Document\Visual Studio 2017\Projects\DiablosASP\Diablos_Archives\Diablos_Archives.Core\bin\Debug\Core.pdb
+D:\Document\Visual Studio 2017\Projects\DiablosASP\Diablos_Archives\Diablos_Archives.Core\bin\Debug\EntityFramework.dll
+D:\Document\Visual Studio 2017\Projects\DiablosASP\Diablos_Archives\Diablos_Archives.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\Document\Visual Studio 2017\Projects\DiablosASP\Diablos_Archives\Diablos_Archives.Core\bin\Debug\EntityFramework.xml
+D:\Document\Visual Studio 2017\Projects\DiablosASP\Diablos_Archives\Diablos_Archives.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\Document\Visual Studio 2017\Projects\DiablosASP\Diablos_Archives\Diablos_Archives.Core\obj\Debug\Diablos_Archives.Core.csprojResolveAssemblyReference.cache
+D:\Document\Visual Studio 2017\Projects\DiablosASP\Diablos_Archives\Diablos_Archives.Core\obj\Debug\Core.dll
+D:\Document\Visual Studio 2017\Projects\DiablosASP\Diablos_Archives\Diablos_Archives.Core\obj\Debug\Core.pdb
